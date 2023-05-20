@@ -1127,27 +1127,27 @@
 
 
 
-/**********footer***************************************/
-#footer {
+/**********section06***************************************/
+#section06 {
     position: relative;
     height: 1220px;
-    background: url(../img/footer/background.jpg);
+    background: url(../img/06/background.jpg);
 }
-#footer .title01_footer{
+#section06 .title01_06{
     position: absolute;
     top: 300px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 100;
 } 
-#footer .title02_footer{
+#section06 .title02_06{
     position: absolute;
     top: 450px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 100;
 } 
-#footer .image01_footer{
+#section06 .image01_06{
     position: absolute;
     top: 650px;
     left: 120px;
@@ -1156,11 +1156,11 @@
     transform: translateY(100px);
     transition: all 1s;
 }
-#footer .image01_footer.on {
+#section06 .image01_06.on {
     transform:none;
     Opacity:1;
 }
-#footer .image02_footer{
+#section06 .image02_06{
     position: absolute;
     top: 650px;
     left: 547px;
@@ -1169,11 +1169,11 @@
     transform: translateY(100px);
     transition: all 1s;
 }
-#footer .image02_footer.on {
+#section06 .image02_06.on {
     transform:none;
     Opacity:1;
 }
-#footer .image03_footer{
+#section06 .image03_06{
     position: absolute;
     top: 650px;
     right: 547px;
@@ -1182,11 +1182,11 @@
     transform: translateY(100px);
     transition: all 1s;
 }
-#footer .image03_footer.on {
+#section06 .image03_06.on {
     transform:none;
     Opacity:1;
 }
-#footer .image04_footer{
+#section06 .image04_06{
     position: absolute;
     top: 650px;
     right: 120px;
@@ -1195,20 +1195,186 @@
     transform: translateY(100px);
     transition: all 1s;
 }
-#footer .image04_footer.on {
+#section06 .image04_06.on {
     transform:none;
     Opacity:1;
 }
-#footer .text01_footer{
+#section06 .text01_06{
     position: absolute;
     top: 1150px;
     left: 120px;
     z-index: 100;
 } 
-#footer .text02_footer{
+#section06 .text02_06{
     position: absolute;
     top: 1150px;
     right: 120px;
     z-index: 100;
 } 
 
+
+
+/************ footer *******************************/
+#footer{
+  position: relative;
+  height: 910px;
+  background: rgb(11, 11, 11);
+  overflow: hidden;
+}
+
+#footer .title01_footer {
+  position: absolute;
+  top: 130px;
+  left: 120px;
+  z-index: 100;
+  height: 99px;
+  overflow: hidden;
+}
+#footer .title01_footer img {
+  transform: translateY(99px);
+  transition: 1s;
+}
+#footer .title01_footer.on img {
+  transform: translateY(0);
+}
+
+#footer .title02_footer {
+  position: absolute;
+  top: 280px;
+  left: 120px;
+  z-index: 100;
+  height: 99px;
+  overflow: hidden;
+}
+#footer .title02_footer img {
+  transform: translateY(99px);
+  transition: 1s;
+}
+#footer .title02_footer.on img {
+  transform: translateY(0);
+}
+#footer .title03_footer {
+  position: absolute;
+  top: 250px;
+  left: 120px;
+  z-index: 100;
+}
+#footer .back_footer {
+  position: absolute;
+  top: 310px;
+  left: 1430px;
+  z-index: 100;
+}
+#footer .next_footer {
+  position: absolute;
+  top: 310px;
+  left: 1620px;
+  z-index: 100;
+}
+
+#footer .line01 {
+  position: absolute;
+  left: 120px;
+  top: 450px;
+  width: 1665px;
+  height: 2px;
+  background-color: #7e7e7e;
+  transition: all 1s;
+}
+/* #footer .line01.on {
+  width: 1745px;
+} */
+
+
+#footer .line02 {
+  position: absolute;
+  left: 120px;
+  top: 730px;
+  width: 1665px;
+  height: 2px;
+  background-color: #7e7e7e;
+  transition: all 1s;
+}
+/* #footer .line02.on {
+  width: 1745px;
+} */
+
+#footer .text01_footer {
+  position: absolute;
+  top: 520px;
+  left: 170px;
+  z-index: 100;
+}
+#footer .text02_footer {
+  position: absolute;
+  top: 520px;
+  left: 1200px;
+  z-index: 100;
+}
+#footer .link01_footer {
+  position: absolute;
+  top: 570px;
+  left: 1200px;
+  z-index: 100;
+}
+#footer .link02_footer {
+  position: absolute;
+  top: 600px;
+  left: 1200px;
+  z-index: 100;
+}
+#footer .link03_footer {
+  position: absolute;
+  top: 630px;
+  left: 1200px;
+  z-index: 100;
+}
+#footer .link04_footer {
+  position: absolute;
+  top: 660px;
+  left: 1200px;
+  z-index: 100;
+}
+#footer .link05_footer {
+  position: absolute;
+  top: 570px;
+  left: 1450px;
+  z-index: 100;
+}
+#footer .link06_footer {
+  position: absolute;
+  top: 600px;
+  left: 1450px;
+  z-index: 100;
+}
+#footer .link07_footer {
+  position: absolute;
+  top: 630px;
+  left: 1450px;
+  z-index: 100;
+}
+#footer .text03_footer {
+  position: absolute;
+  top: 755px;
+  left: 120px;
+  z-index: 100;
+}
+#footer .text04_footer {
+  position: absolute;
+  top: 755px;
+  right: 140px;
+  z-index: 100;
+}
+
+#footer .heart01_footer {
+  position: absolute;
+  top: 0px;
+  left: -300px;
+  z-index: 1;
+}
+#footer .heart02_footer {
+  position: absolute;
+  top: 300px;
+  right: -200px;
+  z-index: 1;
+}

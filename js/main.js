@@ -141,18 +141,27 @@ window.addEventListener('DOMContentLoaded', function () {
             $('.title03_05').addClass('on');
         }
 
-        if(scrollTop >= 16400){
-            $('.image01_footer').addClass('on');
+        if(scrollTop >= 16800){
+            $('.image01_06').addClass('on');
         }
-        if(scrollTop >= 16500){
-            $('.image02_footer').addClass('on');
+        if(scrollTop >= 16900){
+            $('.image02_06').addClass('on');
         }
-        if(scrollTop >= 16600){
-            $('.image03_footer').addClass('on');
+        if(scrollTop >= 17000){
+            $('.image03_06').addClass('on');
         }
-        if(scrollTop >= 16700){
-            $('.image04_footer').addClass('on');
+        if(scrollTop >= 17100){
+            $('.image04_06').addClass('on');
         }
+
+        if(scrollTop >= 17490){
+            $('.title01_footer').addClass('on');
+        }
+        if(scrollTop >= 17687){
+            $('.title02_footer').addClass('on');
+        }
+
+
 
 
 
