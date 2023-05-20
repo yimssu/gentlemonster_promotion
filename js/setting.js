@@ -61,7 +61,7 @@ window.addEventListener('DOMContentLoaded', function () {
                 end: 'bottom bottom',
                 scrub: true,
                 onUpdate: self => {
-                    console.log("progress:", self.progress)
+                    // console.log("progress:", self.progress)
                     // v = Math.floor(self.progress * 5);
                     // console.log(v)
 
