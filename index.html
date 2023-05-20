@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GENTLE MONSTER PROMOTION</title>
+    <link rel="stylesheet" href="css/plugin/reset.css">
+    <link rel="stylesheet" href="css/plugin/common.css">
+    <link rel="stylesheet" href="css/plugin/swiper-bundle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+
+    <script src="js/plugin/jquery-1.8.1.min.js"></script>
+    <script src="js/plugin/easing.js"></script>
+
+</head>
+<body>
+    <div class="smooth-wrapper">
+        <div id="smooth-content">
+<!-- <div class="posNum"></div> -->
+
+<button class="startPoint"><img src="img/footer/top_button.png" alt=""></button>
+
+
+
+<div id="header">
+    <div class="header_title">
+      <!-- <a href="../portfolio_site/index.html"><div class="header_title_img"><img src="img/gnb/title.png" alt=""></div></a> -->
+      <a href="index.html"><div class="header_title_img"><img src="img/gnb/title.png" alt=""></div></a>
+    </div>
+    <div class="header_menu">
+        <div class="menu_01">
+          <!-- <a href="../uiux_mobile_01/index.html"><div class="img_01"><img src="img/gnb/text01.png" alt=""></div></a>  -->
+          <a href="../uiux_mobile_01/index.html"><div class="img_01"><img src="img/gnb/text01.png" alt=""></div></a> 
+        </div>
+        <div class="menu_02">
+          <a href="../uiux_mobile_01/index.html"><div class="img_02"><img src="img/gnb/text02.png" alt=""></div></a>
+        </div>
+        <div class="menu_03">
+          <a href="../uxui_mobile_02/index.html"><div class="img_03"><img src="img/gnb/text03.png" alt=""></div></a>
+        </div>
+        <div class="menu_04">
+          <a href="../ui_website/index.html"><div class="img_04"><img src="img/gnb/text04.png" alt=""></div></a>
+        </div>
+        <div class="menu_05">
+          <a href="../natuur_promotion_01/index.html"><div class="img_05"><img src="img/gnb/text05.png" alt=""></div></a>
+        </div> 
+        <div class="menu_06">
+          <a href="../gentle_promotion_02/index.html"><div class="img_06"><img src="img/gnb/text06.png" alt=""></div></a>
+        </div>
+        <div class="menu_07">
+            <a href="../clove_promotion_03/index.html"><div class="img_07"><img src="img/gnb/text07.png" alt=""></div></a>
+        </div>
+    </div>
+</div>
+
+
+
+<section id="container">
+    <section id="section01">
+
+        <div class="yellow_bg"></div>
+        <p class="title02_01" data-text="PROMOTION">PROMOTION</p>
+        <h1 class="title03_01" data-text="GENTLE">GENTLE</h1>
+
+        <div class="image01_01"><img src="img/01/image01.jpg" alt=""></div>
+        <div class="image02_01"><img src="img/01/image02.jpg" alt=""></div>
+        <div class="text01_01"><img src="img/01/text01.png" alt=""></div>
+        <div class="title01_01"><img src="img/01/title01.png" alt=""></div>
+        <div class="title04_frame_01">
+            <div class="title04_01">
+                <img src="img/01/title04.png" alt="">
+                <img src="img/01/title04.png" alt="">
+                <img src="img/01/title04.png" alt="">
+            </div>
+        </div>
+
+
+        <script>
+          function glitch(element) {
+            let count = 0
+            setInterval(() => {
+              // element
+              const skew = Math.random() * 20 - 10
+              // element::before
+              const top1 = Math.random() * 100
+              const btm1 = Math.random() * 100
+              // element::after
+              const top2 = Math.random() * 100
+              const btm2 = Math.random() * 100
+    
+              element.style.setProperty('--skew', `${skew}deg`)
+              element.style.setProperty('--t1', `${top1}%`)
+              element.style.setProperty('--b1', `${btm1}%`)
+              element.style.setProperty('--t2', `${top2}%`)
+              element.style.setProperty('--b2', `${btm2}%`)
+              element.style.setProperty('--scale', `1`)
+    
+              count++
+    
+              if (count % 15 === 0) {
+                const bigSkew = Math.random() * 180 - 90
+                element.style.setProperty('--skew', `${bigSkew}deg`)
+              }
+    
+              if (count % 30 === 0) {
+                const bigScale = 1 + Math.random() / 2
+                element.style.setProperty('--scale', `${bigScale}`)
+              }
+            }, 100)
+          }
+
+          const p = document.querySelector('p')
+          glitch(p)
+
+
+          function glitch(element) {
+            let count = 0
+            setInterval(() => {
+              // element
+              const skew = Math.random() * 20 - 10
+              // element::before
+              const top1 = Math.random() * 100
+              const btm1 = Math.random() * 100
+              // element::after
+              const top2 = Math.random() * 100
+              const btm2 = Math.random() * 100
+    
+              element.style.setProperty('--skew', `${skew}deg`)
+              element.style.setProperty('--t1', `${top1}%`)
+              element.style.setProperty('--b1', `${btm1}%`)
+              element.style.setProperty('--t2', `${top2}%`)
+              element.style.setProperty('--b2', `${btm2}%`)
+              element.style.setProperty('--scale', `1`)
+    
+              count++
+    
+              if (count % 15 === 0) {
+                const bigSkew = Math.random() * 180 - 90
+                element.style.setProperty('--skew', `${bigSkew}deg`)
+              }
+    
+              if (count % 30 === 0) {
+                const bigScale = 1 + Math.random() / 2
+                element.style.setProperty('--scale', `${bigScale}`)
+              }
+            }, 100)
+          }
+    
+          const h1 = document.querySelector('h1')
+          glitch(h1)
+
+
+        </script>
+    </section>
+
+
+    <section id="section02"> 
+        <div class="long_text_frame_02">
+            <div class="long_text_02">
+                <img src="img/02/long_text.png" alt="">
+                <img src="img/02/long_text.png" alt="">
+            </div>
+        </div>
+
+        <div class="ac_02"><img src="img/02/ac.png" alt=""></div>
+        <div class="video01">
+            <!-- <video id="video01" src="vid/vid_02.mp4" autoplay muted loop></video> -->
+            <video id="video01" src="vid/vid_01.mp4" autoplay muted loop></video>
+        </div>
+
+        <div class="text01_02"><img src="img/02/text01.png" alt=""></div>
+        <div class="title01_02"><img src="img/02/title01.png" alt=""></div>
+        <div class="title02_02"><img src="img/02/title02.png" alt=""></div>
+        <div class="line_02"></div>
+
+        <div class="image01_02"><img src="img/02/image01.jpg" alt=""></div>
+        <div class="image02_02"><img src="img/02/image02.jpg" alt=""></div>
+        <div class="star01_02"><img src="img/02/ac_star.png" alt=""></div>
+        <div class="star02_02"><img src="img/02/ac_star.png" alt=""></div>
+        <div class="star03_02"><img src="img/02/ac_star.png" alt=""></div>
+        <div class="text02_02"><img src="img/02/text02.png" alt=""></div>
+        <div class="text03_02"><img src="img/02/text03.png" alt=""></div>
+        <div class="title03_02"><img src="img/02/title03.png" alt=""></div>
+
+        <div class="image03_02"><img src="img/02/image03.png" alt=""></div>
+        <div class="star04_02"><img src="img/02/ac_star.png" alt=""></div>
+        <div class="star05_02"><img src="img/02/ac_star.png" alt=""></div>
+        <div class="text04_02"><img src="img/02/text04.png" alt=""></div>
+        <div class="title04_02"><img src="img/02/title04.png" alt=""></div>
+
+        <div class="image04_02"><img src="img/02/image04.png" alt=""></div>
+        <div class="image05_02"><img src="img/02/image05.png" alt=""></div>
+        <div class="color_title_02"><img src="img/02/color_title.png" alt=""></div>
+        <div class="color_02"><img src="img/02/color.png" alt=""></div>
+        <div class="typo_title_02"><img src="img/02/typo_title.png" alt=""></div>
+        <div class="typo01_02"><img src="img/02/typo01.png" alt=""></div>
+        <div class="typo02_02"><img src="img/02/typo02.png" alt=""></div>
+        <div class="title05_02"><img src="img/02/title05.png" alt=""></div>
+        <div class="title06_02"><img src="img/02/title06.png" alt=""></div>
+
+
+        <div class="image06_02"><img src="img/02/image06.jpg" alt=""></div>
+        <div class="image07_02"><img src="img/02/image07.png" alt=""></div>
+        <div class="ac_keyword_02"><img src="img/02/ac_keyword.png" alt=""></div>
+        <div class="circle01_02"><img src="img/02/circle01.png" alt=""></div>
+        <div class="circle02_02"><img src="img/02/circle02.png" alt=""></div>
+        <div class="circle03_02"><img src="img/02/circle03.png" alt=""></div>
+        <div class="circle_text01_02"><img src="img/02/circle_text01.png" alt=""></div>
+        <div class="circle_text02_02"><img src="img/02/circle_text02.png" alt=""></div>
+        <div class="circle_text03_02"><img src="img/02/circle_text03.png" alt=""></div>
+      
+        <div class="styleguide_02"><img src="img/02/styleguide.png" alt=""></div>
+        <div class="title07_02"><img src="img/02/title07.png" alt=""></div>
+        <div class="title08_02"><img src="img/02/title08.png" alt=""></div>
+        <div class="text05_02"><img src="img/02/text05.png" alt=""></div>
+        <div class="star06_02"><img src="img/02/ac_star.png" alt=""></div>
+        <div class="star07_02"><img src="img/02/ac_star.png" alt=""></div>
+    </section>
+
+    <section id="section03">
+        <div class="title01_03"><img src="img/03/title01.png" alt=""></div>
+        <div class="title02_03"><img src="img/03/title02.png" alt=""></div>
+        <div class="title03_03"><img src="img/03/title03.png" alt=""></div>
+        <div class="title04_03"><img src="img/03/title04.png" alt=""></div>
+        <div class="text01_03"><img src="img/03/text01.png" alt=""></div>
+        <div class="text02_03"><img src="img/03/text02.png" alt=""></div>
+    </section>
+
+    <section id="section04">
+        <div class="long_text_frame_04">
+            <div class="long_text_04">
+                <img src="img/04/long_text.png" alt="">
+                <img src="img/04/long_text.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="title01_04"><img src="img/04/title01.png" alt=""></div>
+        <div class="title02_04"><img src="img/04/title02.png" alt=""></div>
+        <div class="text01_04"><img src="img/04/text01.png" alt=""></div>
+        <div class="mockup01_04"><img src="img/04/mockup01.png" alt=""></div>
+
+        <div class="arrow_04"><img src="img/04/arrow.png" alt=""></div>
+        <div class="image01_04"><img src="img/04/image01.png" alt=""></div>
+        <div class="mockup02_04"><img src="img/04/mockup02.png" alt=""></div>
+        <div class="text02_04"><img src="img/04/text02.png" alt=""></div>
+        <div class="star01_04"><img src="img/04/star.png" alt=""></div>
+        <div class="star02_04"><img src="img/04/star.png" alt=""></div>
+
+        <div class="bg_text_04"><img src="img/04/bg_text.png" alt=""></div>
+        <div class="mockup03_04"><img src="img/04/mockup03.png" alt=""></div>
+        <div class="image02_04"><img src="img/04/image02.png" alt=""></div>
+        <div class="text03_04"><img src="img/04/text03.png" alt=""></div>
+        <div class="text04_04"><img src="img/04/text04.png" alt=""></div>
+        <div class="star03_04"><img src="img/04/star.png" alt=""></div>
+        <div class="star04_04"><img src="img/04/star.png" alt=""></div>
+        <div class="just_scroll_04"><img src="img/04/just_scroll.png" alt=""></div>
+        <div class="arrow02_04"><img src="img/04/arrow02.png" alt=""></div>
+        <div class="image03_04"><img src="img/04/image03.jpg" alt=""></div>
+    </section>
+
+
+    <section id="section05">
+        <div class="ac_05"><img src="img/05/ac.png" alt=""></div>
+        <div class="mockup01_05"><img src="img/05/mockup01.png" alt=""></div>
+        <div class="mockup02_05"><img src="img/05/mockup02.png" alt=""></div>
+        <div class="image01_05"><img src="img/05/image01.png" alt=""></div>
+        <div class="text01_05"><img src="img/05/text01.png" alt=""></div>
+        <div class="text02_05"><img src="img/05/text02.png" alt=""></div>
+        <div class="star01_05"><img src="img/05/star.png" alt=""></div>
+        <div class="star02_05"><img src="img/05/star.png" alt=""></div>
+
+        <div class="title01_05"><img src="img/05/title01.png" alt=""></div>
+        <div class="title02_05"><img src="img/05/title02.png" alt=""></div>
+        <div class="title03_05"><img src="img/05/title03.png" alt=""></div>
+        <div class="title_image01_05"><img src="img/05/title_image01.png" alt=""></div>
+        <div class="title_image02_05"><img src="img/05/title_image02.png" alt=""></div>
+        <div class="title_image03_05"><img src="img/05/title_image03.png" alt=""></div>
+        <div class="triangle_05"><img src="img/05/triangle.png" alt=""></div>
+
+    </section>
+
+    <footer id="footer">
+        <div class="title01_footer"><img src="img/footer/title01.png" alt=""></div>
+        <div class="title02_footer"><img src="img/footer/title02.png" alt=""></div>
+        <div class="image01_footer"><img src="img/footer/image01.jpg" alt=""></div>
+        <div class="image02_footer"><img src="img/footer/image02.jpg" alt=""></div>
+        <div class="image03_footer"><img src="img/footer/image03.jpg" alt=""></div>
+        <div class="image04_footer"><img src="img/footer/image04.jpg" alt=""></div>
+        <div class="text01_footer"><img src="img/footer/text01.png" alt=""></div>
+        <div class="text02_footer"><img src="img/footer/text02.png" alt=""></div>
+      
+    </footer>
+
+
+
+</section>
+
+
+<script src="js/plugin/gsap.js"></script>
+<script src="js/plugin/scrollTrigger.js"></script>
+<script src="js/plugin/swiper-bundle.js"></script>
+<script src="js/scrollbar.js"></script>
+<script src="js/setting.js"></script>
+<script src="js/main.js"></script>
+
+</div>
+</div>
+</body>
+</html>
